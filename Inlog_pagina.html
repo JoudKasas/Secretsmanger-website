@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<head>
+    <meta charset="UTF-8">
+    <title>Inlog Pagina</title>
+    <link rel="stylesheet" href="main.css"> 
+<!--Dit verwijst naar het het bestand waar ik de layout heb gedaan voor de landingspagina-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<!--Dit verwijst naar het programa waar ik de icoontjes vandaan heb gehaald-->
+</head>
+
+<body class="inlog_pagina">
+    <div class="wrapper">
+<!-- Een containerdiv met de klasse 'wrapper' om de inhoud te groeperen. -->
+        <form action="">
+<!--De actie staat nog leeg omdat de file nog niet klaar is voor het verwerken vaan de inlog gegevens
+zodra het code en bestand klaar is zal het inworden gevoerd, voornu heeft het niet echt een werking-->
+            <h2>Login</h2>
+            <div class="input-box">
+<!-- Een div met de klasse 'input-box' voor een invoerveld. -->
+                <input type="text" placeholder="Gebruikersnaam" required>
+ <!-- Een tekstveld voor het invoeren van de gebruikersnaam met een placeholder tekst "Gebruikersnaam". 
+Het 'required' attribuut geeft aan dat dit veld verplicht is. -->
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Wachtwoord" required>
+<!--Een veld om je wachtwoord in tevoeren met een placeholder tekst "Wachtwoord". Required staat voor
+dat je niet verder kan voordat je dit veld hebt ingevoerd, het is verplicht-->
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">Onthoud mij</label>
+<!-- Een selectievakje (checkbox) met de labeltekst "Onthoud mij". 
+Dit stelt gebruikers in staat om aan te geven of ze willen dat hun inloggegevens worden onthouden. -->
+            </div>
+           <button type="submit" class="btn">Login</button>
+<!--Dit is voor het knopje om in te loggen, om het formulier toe te dienen en access 
+te krijgen tot je account-->
+           <div class="register-link">
+            <p>Heb je nog geen account? <a href="account_aanmaken.html">Maak een account aan</a></p>
+<!--Voor degene die nog geen account hebben gemaakt-->
+            <p>Wil je terug gaan naar de home pagina? <a href="index.html">Klik dan hier op</a></p>
+<!--Een link om naar de home pagina te gaan voor degene die dat willen, leek me makkelijk er staat
+leuker bij de layout dan een navigatiebar-->
+           </div>
+        </form>
+    </div>
+</body>

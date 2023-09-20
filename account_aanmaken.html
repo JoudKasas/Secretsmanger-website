@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Account aanmaken</title>
+    <link rel="stylesheet" href="main.css">
+<!--Dit verwijst naar het het bestand waar ik de layout heb gedaan voor de landingspagina-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<!--Dit verwijst naar het programa waar ik de icoontjes vandaan heb gehaald-->
+</head>
+
+<body class="registerpagina">
+    <div class="wrapper">
+    <div class="form-box register">
+<!-- Een registratieformulier -->
+        <h2 class="registeren">Account aanmaken</h2>
+        <form action="#">
+<!--De actie staat nog leeg omdat de file nog niet klaar is voor het verwerken van de inlog gegevens
+zodra het code en bestand klaar is zal het in worden gevoerd, voornu heeft het niet echt een werking-->
+            <div class="input-box">
+<!-- Invoerveld voor Gebruikersnaam -->
+                <label>Gebruikersnaam</label>
+                <input type="text" placeholder="Gebruikersnaam" required>
+<!-- Invoerveld voor de gebruikersnaam met vereiste eigenschap -->
+                <i id="AC" class='bx bx-user'></i>
+<!--Het icoontje dat ik gebruikt heb, het heeft dezelfde id als de andere icoontjes omdat ik
+ze allemaal hetzelfde eigenschappen wou geven-->
+            </div>
+            <div class="input-box">
+<!-- Invoerveld voor Email -->
+                <label>Email</label>
+                <input type="text" placeholder="Emailadres" required>
+<!-- Invoerveld voor het e-mailadres met vereiste eigenschap -->
+                <i id="AC" class='bx bx-envelope' ></i>
+            </div>
+            <div class="input-box">
+<!--Invoerveld voor het wachtwoord-->
+                <label>Wachtwoord</label>
+                <input type="password" placeholder="Wachtwoord" required>
+<!--Invoerveld voor het gekozen wachtwoord met een vereist eigenschap-->
+                <i id="AC" class='bx bx-lock-alt'></i>
+            </div>
+            <button type="submit" class="btn02">Account aanmaken</button>
+<!-- Knop om het registratieformulier in te dienen -->
+            <div class="logreg-link">
+                <p>Heb je al een account? <a href="Inlog_pagina.html" class="login-link">Klik hier om in te loggen</a></p>
+<!--Link om naar de inlogpagina te gaan-->
+                <p>Wil je terug gaan naar de home pagina? <a href="index.html">Klik hier dan op</a></p>
+<!--Link om naar de home pagina te gaan-->
+            </div>
+        </form>
+    </div>
+  </div>
+</body>
